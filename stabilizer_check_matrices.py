@@ -12,7 +12,7 @@ mat_dict = {}
 mat_dict['bit_flip_code'] = [np.array([
     [0, 0, 0,   1, 1, 0],
     [0, 0, 0,   1, 0, 1],
-], dtype = np.uint), {
+], dtype=np.uint), {
     'X': 1,
     'Z': 0,
     'Y': 0,
@@ -20,11 +20,10 @@ mat_dict['bit_flip_code'] = [np.array([
 }]
 
 
-
 mat_dict['phase_flip_code'] = [np.array([
     [1, 1, 0,   0, 0, 0],
     [1, 0, 1,   0, 0, 0],
-], dtype = np.uint), {
+], dtype=np.uint), {
     'X': 0,
     'Z': 1,
     'Y': 0,
@@ -40,7 +39,7 @@ mat_dict['shor_code'] = [np.array([
     [0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 1, 0, 1],
     [1, 1, 1, 1, 1, 1, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0],
     [1, 1, 1, 0, 0, 0, 1, 1, 1,  0, 0, 0, 0, 0, 0, 0, 0, 0],
-], dtype = np.uint), {
+], dtype=np.uint), {
     'X': 1,
     'Z': 1,
     'Y': 1,
@@ -54,7 +53,7 @@ mat_dict['steane_code'] = [np.array([
     [0, 0, 0, 0, 0, 0, 0,   1, 1, 1, 1, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 0,   1, 1, 0, 0, 1, 1, 0],
     [0, 0, 0, 0, 0, 0, 0,   1, 0, 1, 0, 1, 0, 1],
-], dtype = np.uint), {
+], dtype=np.uint), {
     'X': 1,
     'Z': 1,
     'Y': 1,
@@ -66,7 +65,7 @@ mat_dict['five_qubit_code'] = [np.array([
     [0, 1, 0, 0, 1,     0, 0, 1, 1, 0],
     [1, 0, 1, 0, 0,     0, 0, 0, 1, 1],
     [0, 1, 0, 1, 0,     1, 0, 0, 0, 1],
-], dtype = np.uint), {
+], dtype=np.uint), {
     'X': 1,
     'Z': 1,
     'Y': 1,
